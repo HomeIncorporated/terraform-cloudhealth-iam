@@ -127,7 +127,9 @@ variable "default-readonly-policy" {
         "kinesis:List*"
       ],
       "Resource": "*"
-    }POLICY
+    }
+POLICY
+
 }
 
 variable "default-reservation-policy" {
@@ -138,7 +140,9 @@ variable "default-reservation-policy" {
         "ec2:ModifyReservedInstances"
       ],
       "Resource": "*"
-    }POLICY
+    }
+POLICY
+
 }
 
 variable "default-actions-policy" {
@@ -156,5 +160,7 @@ variable "default-actions-policy" {
         "ec2:ReleaseAddress"
       ],
       "Resource": "*"
-    }POLICY
+    }
+POLICY
+
 }
